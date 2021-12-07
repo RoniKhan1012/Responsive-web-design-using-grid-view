@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    background-color: darkorange;
+    padding: 10px;
+    text-align: center;
+}
+.nav-menu{
+    text-align: center;
+    background-color: darkturquoise;
+    padding: 10px;
+}
+.nav-menu a{
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+.main{
+    background-color: fuchsia;
+    padding: 10px;
+    text-align: center;
+}
+.aside{
+    background-color: greenyellow;
+    text-align: center;
+    padding: 10px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+[class*="col-"]{
+    float: left;
+}
+.row::after{
+    content: '';
+    clear: both;
+    display: table;
+
+}

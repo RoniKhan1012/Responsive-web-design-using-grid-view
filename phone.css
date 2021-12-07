@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
+    [class*="col-"]{
+        width: 100%;
+    }
+    .nav-menu a{
+        background-color: yellow;
+        margin: 5px;
+    }  
